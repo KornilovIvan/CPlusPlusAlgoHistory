@@ -1,0 +1,30 @@
+# Служебные файлы macOS и редактора
+.DS_Store
+.vscode/
+.lsp/
+.clj-kondo/
+
+# Временные черновики, не исходники
+tempCodeRunnerFile.cpp
+Untitled-1.jsonc
+
+# Артефакты сборки C/C++
+*.o
+*.a
+*.exe
+*.app
+*.dSYM/
+a.out
+
+# Сборка .NET
+bin/
+obj/
+
+# Сгенерировано qmake из .pro, пути машины
+.qmake.stash
+Makefile
+build/
+
+# Дампы графа после прогона, не эталонные тесты
+плюсы/RBtree/a.dot
+плюсы/RBtree/b.dot
